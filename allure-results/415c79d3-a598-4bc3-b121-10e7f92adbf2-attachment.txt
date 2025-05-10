@@ -1,0 +1,177 @@
+[INFO ] 2025-05-10 05:30:15.470 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.2.20250409[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:15.480 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-05-10 05:30:15.550 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-05-10 05:30:15.789 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-05-10 05:30:16.220 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-05-10 05:30:16.987 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-05-10 05:30:17.220 [main] Utils - [TestNG] Running:
+  C:\Users\bhaam\AppData\Local\JetBrains\IntelliJIdea2025.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-05-10 05:30:17.262 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:17.311 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-05-10 05:30:17.452 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                          'Task.LanguageURLcheck.setup'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:17.461 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ijd.json".
+[INFO ] 2025-05-10 05:30:17.463 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-05-10 05:30:17.474 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2025-05-10 05:30:17.555 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                             Test Method: 'Task.LanguageURLcheck.testLanguageInURL'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:17.583 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-05-10 05:30:17.634 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-05-10 05:30:17.735 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-05-10 05:30:17.759 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-port=52554, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\bhaam\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-05-10 05:30:17.760 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-05-10 05:30:17.760 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-05-10 05:30:18.309 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-05-10 05:30:18.340 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-05-10 05:30:18.703 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-05-10 05:30:18.707 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-05-10 05:30:18.707 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-05-10 05:30:18.718 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-05-10 05:30:18.718 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-05-10 05:30:18.718 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.720 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-05-10 05:30:18.720 [] headers - >> Accept: */*
+[DEBUG] 2025-05-10 05:30:18.720 [] headers - >> Host: api.github.com
+[DEBUG] 2025-05-10 05:30:18.720 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-05-10 05:30:18.721 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2025-05-10 05:30:18.721 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-05-10 05:30:18.970 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.974 [] wire -  << "Date: Sat, 10 May 2025 02:30:11 GMT[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.974 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.974 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.977 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.978 [] wire -  << "ETag: W/"8327ce53a6b369a92c9fb3cb01503568541ec653233e3afc734e5c64caa1dade"[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.978 [] wire -  << "Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.979 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.980 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-RateLimit-Remaining: 52[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-RateLimit-Reset: 1746845029[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-RateLimit-Used: 8[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "Content-Length: 1630[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.981 [] wire -  << "X-GitHub-Request-Id: CD4D:335C5:46D7F7:49DFE8:681EBA33[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.982 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-05-10 05:30:18.984 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-05-10 05:30:18.984 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-05-10 05:30:18.984 [] headers - << Date: Sat, 10 May 2025 02:30:11 GMT
+[DEBUG] 2025-05-10 05:30:18.985 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-05-10 05:30:18.988 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-05-10 05:30:18.988 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-05-10 05:30:18.988 [] headers - << ETag: W/"8327ce53a6b369a92c9fb3cb01503568541ec653233e3afc734e5c64caa1dade"
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Server: github.com
+[DEBUG] 2025-05-10 05:30:18.989 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-RateLimit-Remaining: 52
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-RateLimit-Reset: 1746845029
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-RateLimit-Used: 8
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << Content-Length: 1630
+[DEBUG] 2025-05-10 05:30:18.990 [] headers - << X-GitHub-Request-Id: CD4D:335C5:46D7F7:49DFE8:681EBA33
+[DEBUG] 2025-05-10 05:30:19.039 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-05-10 05:30:19.040 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Xko[0x9c]8[0x14][0xfd]+h[0xaa]j[0xa5]l[0x80][0x81]y#U}%m[0xa3]UR[0xb5][0x8d][0xb4][0xda]m[0xab][0x91][0x1][0xf]8[0x1]Lm3[0xc9]4[0xea][0xdf]c[0xc3]<[0x95]M[0x9a]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[0xc][0xf9][0x90][0xe1]B[0xe0][0xdc][0xeb][0xfb]8[0xd7][0xbe]7[0x9d]Jd[0x9d][0xa0][0x93]*U[0xca][0xc0]uI[0xc9][0x9c][0x84][0xa9][0xb4][\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[0x9d][0x88][0xe7][0xae][0xa0]%[0x97][0xee][0x97][0x94][0xcc][0xd4][0x87]O[0xee][0x97][0xf][0xaf][0xdf][0x9d]O[0x8f][0xcf][0xde][0x9f][0x9c][0x1d][0xe3]_[0x19]%[0x92]J[0xd7][0xf7][0xbc][0xde]x4[0xf0][0xba][0x9d][0xc3][0xe][0x91][0x92]*9m[0xf][0xd3][0xad][0x11][0x1]][0x95][0x19]'[0xf1][0xe]t[0xfd]P>[0xda][0xe4][0x6][0xfe][0xe6]eArz[0x98][0x91][0x90]f[0xbf][0xa0]+Uy[0xb6][0xa3]i[0xc3])w[0xbb]C[0x91][0xc4][0x9d]8[0xbe][0xe3]w[0xfd]A[0xb7][0xdf][0x9d][0x0][0x8e][0xc5][0x9d]`[0xe5]%8[0xa9]R)[0x17][0x9d][0xe0][0xa6][0x93][0xf1][0x84][0x15][0xf0]~[\r]n[0x93]H1^[0xc8][0xaf]!W[0xdf][0x9b][0xcf][0xfa][0xde]x2[0xf6][0xc7][0xfe]a[0xa7][0xe0]1[0x9d]j[0xa4][0xce][0xe9][0xd1][0xe9][0xf0]S>[0xe9][0x9e][0x1d][0x1d][0xf7]?[0x9e]'[0x8b][0x8f]G'/[0xb4][0xef][0xe7]D[0x11][0xb1][0xeb]{[0xf3]p[0xe9][0xa0]JR[0x11][0xf1]B[0xd1]B[0x99][0xf0][0xb2][0xc2][0xf5][0x6][0xbd][0xe1][0xf8][0xe5][0xfc]E[0x1f][0x8][0x89]h0[0x8c][0x1a][0xed][0xf3][0xbb]rC[0x83]Iw[0xdb][0xf4][0xe7][0x83]70[0xfe][0xf9][0xe0][0xe8]^'[0x92][0xb2][0xdc][0xfd][0x18][0xdf][0xcc]x[0x96][0xf1]+[0xe0][0xee].c;-[0xef]T[0xed][0xae]@V[0x80][0xac]H[0xf6][0x7][0x4][0xc8][0x8d][0xcb]UJ[0xe1]c,][0xe7]I[0xc2][0xe4]}[0xd9]~[0xb7][0xa9][0x6][0xe0][0x6]N[0x94][\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[0xb1][0xd5][0x90][0x12][0xe1][0x12]t7[0xcf]w[0xca][0xf2]n[0xd0][0x6][0x2][0xc6]^[0x15][0xb0][0xf3][0xc6]T[0xb1][0xc1][0xae]B[0x19][0x9]V[0x9a],[0xdb][0xc7]![@[0x0][0xe6]"![0x5][0xfb]I[0xf6][0x6][0x6][0x90][0x4][0x9e][0xa1][0x9d]}[0xc]4[0x0][0x0][0xa2]s[0xa4][0xfa]^H5[0xc2][0x8d][[\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "6'[0xd1]B[0xbb]Q[0xd0][0x88][0xb2]9b[0xb4]?[0xfa][0xe][0x14][0xc0][0xd5][0xa2][0xa4]([0xbe]7\[0xe1]F[0xc7]y:g[0xf4]j[0xda]<.[0xab]0c[0x91][0xe]%StJ[0xe2]\[0xd3][0xc7][0x8c]d[0x92][0xfe][0xda]d[0x88][0xcf][0xc7][0xd3][0xcb][0xab][0xa3][0x8f]o[0xdf][0xd3][0xf3][0xa1][0xec][0x9f][0xe6][0xff]|[0xf6]54I[0xa6][0x9a][0xe7][0x0][0xbf]CP[0xc8][0xb9][0x84][0xaa])(!g[0x8a][0xc9][0x14]o[0xe4][0x4][0xd0][0xc0][0xbc][0xf5][0xfd]X[0xa0]!4[0x8a][0xf];[0xa5][0xa0]M3X=[0x8a][0x4]%[\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[0x1e]"x[0xab][0xa3][0x99][0xd0][0xee][0xf6][0xed][0xee][0xe4][0xdc][0xf7][0x82]n7[0xf0]{[0xff][0x2][0xda][0xac]E[0xa6][0xff][0xfb]V[0xa0][0xdf]j[0xf8]?[0xf8][0xfa]]/@[0x84]$[0xdb]e[0xe6][0xdf]oY[0xcd][0xf7][0xbb][0xf4][0xfc][0x93][0x95]{[0xc1]6[0xdf][0xef][0xc2][0x86]<^`[0xf5][0xcf][0x9e]Y[0xa7]D[0xfd]![0xad][0xb7]))[0x12][0x1a]+[0xe],[0xc4][0x8d][0xb]{[0xc6][0xae][0xa9][0xb4][0xc2][0x85][0xf5][0xea][0x94][0xa7]$[0xc4][0xf][0xa3][0x16]+[0xac]e3[0xbe][0xaf][0xe7][0x94]U[0x96][0xb9][0xde][0xa4]7[0xd1][0x90][0x11]z[\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[\r],Z@KD[0xad][0x92][0x95]4c[0x5][0xd5][0xf0]9[0xb9][0x4]yY[0x8a][0x82]l,Q[0x15][0xd6][0x8c][0xb][0xab][0xa0]4[0xa6]1>[0xd3]F5V[0x90]4[0xe7]U|JB[0xc1]/[0x1f]aH[0xbf][0xaf][\r][0x89]y$[0xd7]v0)+[\n]"
+[DEBUG] 2025-05-10 05:30:19.041 [] wire -  << "[0xd5]y[0x99]!#[0xac]z[0xb5][0xfb][0xea][0xe9]i=o[0xaa][0xbc][0xb4][0x90][0xb2]N[0xc2]y[0x92]Q'[0x12][0x8b]RqG[0xb1][0xe2]2[0xd0]?[0xd6]L[0xf0][0xdc][0xf2][0x1c]o[0xe8]t-[0xc5][0xb5]4[0x82][0xa4][0xdd][0x1d][0xd3][0x92][0x16]1A[0xab]z[0xcc]*[0xbd][0x95]v[0xd0][0x95]CdI#u[0x11]4[0xd7]+J[0xe6]T,u[0xa3][0xce]|[0xc7][0xab][0xb5]C[0xee][0xb5][0xa0][0xbd][0xbb][0xb5][0xf6][0x9c]E[0x82]K>S[0x8e][0xfc][0x1][0x16][0x10][0xd0][0x1d][0xe4][0x12][0xb2]}[0x11][0x87]Qc[0x86][0xef]L[0x9c][0xae]s![0xa8][0xe7][0xd9](VM([0xc6]$[0x98][0xd6]][0xfe][0xa3][0x5][0xcb]L[0x1a][0x9a][0xa8]h[0xbf][0xe4]<[0xba]d[0x8a][0x7][0xcd][0xd5][0x8e][0x90][0x9e][0xb5]=[0x83]UH[0x8c][0xe4][0xb5][0xa0]z[0xb4][0xa5][0xfa][0xa2]*[0x98][\n]"
+[DEBUG] 2025-05-10 05:30:19.042 [] wire -  << "[0xcc][0xaf][0x1d]"[0x7]L"@[0x97]_'[0x82][0x91][0xda][0xd0]:[0xd4]Z[0xdf][0x81][0xe9]*A]yE[0x92][0x4][0x91][0x9f][0x93][0x8c][0xc5][0xa6][0x13][0x9a]u[0xfd][0xb5][0x10][0xc]{[0x1a]yF[0x12][0x9a]>&[0xdb][0x6][0xb7][0xe5]zRa[0xa7][0x16][0x98][0xdf]zu[0xbd][0x9e][0xd3]w[0xba]6b[0xac]#k[0xee][0x6][0xe6]n[0xef]t[0x1f][0xf8][0xdb][0xe9]^[0x92](E[0xb1][0xa1]U`[0x13][0x11]4W;[0x92][0xf3]U[0xbd][0xf5]V[0xf5][0x6][0x93]Z0`]o[0x8c]/w[0xfa]!/XBD[0xc4]HpE[0xc3][0x18][0xcd][0x99][0x8a][0x9c][0x14]prS{[0x3][0xe4]|O[0xfb][0x2][0xd5][0xdf][0x8a][0x15][0xa6][0xee][0xde][0xb1]kk[0xbb][0xd0]=[0xe8]i[0xea]z/[0x12][0x1f][0xac][0xab]g[0x83][0xd3]n[0x8f]s[0x1d][0xd9]e[0x9c][0x87]-[0xc5]y]C[0xda][0x0]Z[0x92][0xdc]I)[0xc9]h[0xc1][0xaa]<XI6[0xdc][0xdd][0xa4][0x9c]3p[0xfa]&[0xdb] [0xc]Z[0x88][0xf3]:[0xd3]5H[0x9c]/[0xb5][0xea][0xf4][0xc7]J[0xc][0x96][0xcf][0xec][0x8b]U[0xe2][0xf7][0x1d][0x1f][0xe4][0xa6][0xcd][0xe8];[0xbd]v"[0xbd][0xee].[0x86][0xdf][0xeb][0x84][0xcf]A[0xeb][0x85]#Q[0xe9]3[0x86]>[0xbb][0x14]l[0xdd]T[0xd1][[\r][0xc5]hG[0xf8]K[0x8f][0xb4][0xc0][0xf5][0xc3][K[0xaf][0xb6][0xa4][0xcc]*[0x9c][0x1d]e`[0xee][0xec][0x95]9[0xf5][0xe3]'2g[0xbb][0xf1][0x95][0x82]_[0xa0][0xf3]e<[0xf][0xf9]eP_V[0x1c]0vz[0xc3][0xa6][0xe9]B[0x1c][0xef][0x9f][0x1d][0xc3]u[0xdf]{[0x0][0xb][0xd4][0xc5][0xdf][0xb0]@[0xb][0x94]?[0xbc]57J[0xce][0x2][0xfc][0xd9][0x9c]_[0xe7][0xd9][0xb2][0xdb]h[0xee][0x83]b[0xd4]H[0x1b][0xbd]f8^[0xb1]0[0x96][0x1f]UQ[0x95][0x87]h[0xf5]Ka[0xa3] F[0x8e][0x8f][0x9d][0x8e]V[\r]Iw[0xbc][0xbd];[0xc0]p[0xbb][0xbb][0xde][0xd3][0xd8][0x8d]j[0xb4][0xd8]V[0xf6]ZC[0xd3]b[0xcd][0x9e][0xe2][0xd6]e[0x97],[0xe2]z[0xa0][0x81][0xc3][0xca][0x92][0xf8][0x9f]`[0xfd]kb[0xba][0xd5][0x88]M[\n]"
+[DEBUG] 2025-05-10 05:30:19.042 [] wire -  << "x[0x2][0xed]fS}[0x92][0xa3][0xdc][0xe6][0xd4][0xa2][0xd7][0x11]5[0xe7]w[0xb][0xfb][0xf6][0x18][0x1b][0xfc]D[0xef])^[0xd7][0x83]#[0xc7][0xd0][0xe2][0xde][0xe7][0x89][0xe1][0x3]ZQ[0xdd]|[0x96][0xad]h[0xd4]N+[0x1a][0xad]k}[0x83][0x81][0x9b]*{[0x9a][0xfa][0x1a]mS[0xed]o7[0x1f][0xd3]r[0xea][0xe6][0xe3][0xb5]Qk#[0xc3][0xb1][0xa1]Nx[0xec]h[0xa4][0xe]4[0xd0]7[0x8f][0xeb]:[0xde]"
+[DEBUG] 2025-05-10 05:30:19.043 [] wire -  << "'[0x18][0xe1][0x89][0x82]du[0xc0][0x91][0x8]V[0x89][0x96][0xad][0xc9]g[0xef][0xe0][0x8f][0xc0]p[0xdf][\n]"
+[DEBUG] 2025-05-10 05:30:19.043 [] wire -  << "[0x1c]Z[0xcf]pHx[0x8b][0xd2][0x12],[0xac][0x14][0x17]R[0xdb][0xf5][0xea]t[0xeb][0xe4][0x96][0x93][0x18][0xdb][0xcd][0x94]2[0xec][0xb9][0x98][0x90][\n]"
+[DEBUG] 2025-05-10 05:30:19.044 [] wire -  << "[0xa7][0xb1][0xe6]}m[0xf7][0xc3][0xf][0xb2][0xfa][0xfc][0x8]5[0x7][0xef]p[0xae]mN[0xcb][0x98][0x90][0x1e][0x1c][0x4][0xbf]}"[0xc6][0xce][0xa5]$[0xd8][0x8c]O[0x1c][0xaf][0x1e][0xc0][0xf6][0xbc][0x9e][0xe3][0xe8]-[0xda][0xe6]<[0x16][0xc3][0x89][0xba]`[0xf4][0xc][0xf6][0xce][0x19][0xe7][0x83][0xe6][0xdf][0x98][0xb3]-q1[0xab][0xe0][0x8a]d[0x98][0xa8]T[0x5]F [0xde]a[0xe7]O[0xcf]\l\[0xba][0x87][0x9d][0x8c]T[0x9][0xa6],[0x90]R[0xce][0x5][0xc1][0x9c][0x0]"[0xbc]7[0xc3][0xc4][0x7][0xb3]W[0xfd][0x9c][0x12][0x81]/![0x9][0x1c][0xa4]h-[0xd2][0x5][0x95]x[0x86]YO[0x8e][0xb9][0x96][0x99][0xe2]5[0x1a][0xfa][0xbf][0xfe][0x3][0xa8]9[0x9]d[0xca][0x17][0x0][0x0]"
+[DEBUG] 2025-05-10 05:30:19.044 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-05-10 05:30:19.389 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4c08eb2c
+[DEBUG] 2025-05-10 05:30:19.389 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-05-10 05:30:19.470 [main] ReportManager - May 10, 2025 5:30:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-05-10 05:30:19.471 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 136
+[INFO ] 2025-05-10 05:30:19.486 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-05-10 05:30:19.541 [main] ReportManager - Target URL: "https://ijd-dashboard-frontend.vercel.app/ar/dashboard"
+[INFO ] 2025-05-10 05:30:19.563 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-05-10 05:30:20.505 [] ReportManager - You're using the latest engine version "9.2.20250409". 👍
+[INFO ] 2025-05-10 05:30:21.595 [main] ReportManager - Navigate to url "https://ijd-dashboard-frontend.vercel.app/ar/dashboard".
+[INFO ] 2025-05-10 05:30:21.935 [main] ReportManager - Type "بريدك الإلكتروني"
+[INFO ] 2025-05-10 05:30:22.014 [main] ReportManager - Type "كلمة المرور"
+[INFO ] 2025-05-10 05:30:22.082 [main] ReportManager - Click "تسجيل الدخول"
+[INFO ] 2025-05-10 05:30:25.086 [main] ReportManager - Target URL: "https://ijd-dashboard-frontend.vercel.app/ar/section"
+[INFO ] 2025-05-10 05:30:25.095 [main] ReportManager - Initial URL: "https://ijd-dashboard-frontend.vercel.app/ar/dashboard"
+[INFO ] 2025-05-10 05:30:25.921 [main] ReportManager - Navigate to url "https://ijd-dashboard-frontend.vercel.app/ar/section".
+[INFO ] 2025-05-10 05:30:26.380 [main] ReportManager - Click "إنشاء جديد"
+[INFO ] 2025-05-10 05:30:27.034 [main] ReportManager - Type "الاسم"
+[INFO ] 2025-05-10 05:30:27.106 [main] ReportManager - Click "English"
+[INFO ] 2025-05-10 05:30:27.177 [main] ReportManager - Type "الاسم"
+[INFO ] 2025-05-10 05:30:27.239 [main] ReportManager - Click "إنشاء"
+[INFO ] 2025-05-10 05:30:29.103 [main] ReportManager - Click "By.xpath: /html[1]/body[1]/div[1]/main[1]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/button[1]"
+[INFO ] 2025-05-10 05:30:29.948 [main] ReportManager - Click "حذف"
+[INFO ] 2025-05-10 05:30:29.958 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLanguageInURL'
+[INFO ] 2025-05-10 05:30:29.958 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Finished Execution of Test Method: 'Task.LanguageURLcheck.testLanguageInURL'                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:30.061 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of teardown configuration method                                               
+                                                        'Task.LanguageURLcheck.teardown'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:30.359 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-05-10 05:30:30.361 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: teardown'
+[INFO ] 2025-05-10 05:30:30.375 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-05-10 05:30:30.376 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
