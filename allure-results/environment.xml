@@ -46,7 +46,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket52544 @w@C:\Users\bhaam\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\bhaam\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50316 @w@C:\Users\bhaam\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\bhaam\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -138,7 +138,7 @@
   </parameter>
   <parameter>
     <key>java.library.path</key>
-    <value>E:\Program Files\Java\jdk-21.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-24\bin;C:\Program Files\Git\cmd;C:\Users\bhaam\AppData\Local\Microsoft\WindowsApps;;C:\Users\bhaam\AppData\Local\Programs\Microsoft VS Code\bin;.</value>
+    <value>E:\Program Files\Java\jdk-21.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-24\bin;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\bhaam\AppData\Local\Microsoft\WindowsApps;;C:\Users\bhaam\AppData\Local\Programs\Microsoft VS Code\bin;.</value>
   </parameter>
   <parameter>
     <key>CUCUMBER_PUBLISH_ENABLED</key>
@@ -197,12 +197,12 @@
     <value>PropertiesConfig</value>
   </parameter>
   <parameter>
-    <key>appender.console.name</key>
-    <value>STDOUT</value>
-  </parameter>
-  <parameter>
     <key>appender.console.layout.type</key>
     <value>PatternLayout</value>
+  </parameter>
+  <parameter>
+    <key>appender.console.name</key>
+    <value>STDOUT</value>
   </parameter>
   <parameter>
     <key>appender.console.layout.disableAnsi</key>
@@ -338,10 +338,6 @@
   </parameter>
   <parameter>
     <key>allure.testng.hide.disabled.tests</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
-    <key>java.rmi.server.randomIDs</key>
     <value>true</value>
   </parameter>
   <parameter>
