@@ -46,7 +46,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50316 @w@C:\Users\bhaam\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\bhaam\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket50434 @w@C:\Users\bhaam\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\bhaam\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -197,12 +197,12 @@
     <value>PropertiesConfig</value>
   </parameter>
   <parameter>
-    <key>appender.console.layout.type</key>
-    <value>PatternLayout</value>
-  </parameter>
-  <parameter>
     <key>appender.console.name</key>
     <value>STDOUT</value>
+  </parameter>
+  <parameter>
+    <key>appender.console.layout.type</key>
+    <value>PatternLayout</value>
   </parameter>
   <parameter>
     <key>appender.console.layout.disableAnsi</key>
@@ -338,6 +338,10 @@
   </parameter>
   <parameter>
     <key>allure.testng.hide.disabled.tests</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>java.rmi.server.randomIDs</key>
     <value>true</value>
   </parameter>
   <parameter>

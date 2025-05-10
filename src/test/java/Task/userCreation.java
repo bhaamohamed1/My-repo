@@ -47,6 +47,13 @@ class LanguageURLcheck {
 
     }
 
+
+     /* (public class InputCollector)   This is a function to get the user input and put it in the Forminput function
+    but the shaft engine uses input differently for the test cases (example: the ijd.json file )*/
+
+
+
+
     /*public class InputCollector {
 
         private static Scanner scanner = new Scanner(System.in);
@@ -111,7 +118,7 @@ class LanguageURLcheck {
              /* // Validate language code in URL
             String currentUrl = driver.browser().getCurrentURL();
             driver.browser().assertThat().url().contains("/" + expectedLang + "/").perform();
-            System.out.println("✅ Language '" + expectedLang + "' validated successfully in URL.");
+            System.out.println(" Language '" + expectedLang + "' validated successfully in URL.");
 */
 
         }
@@ -139,7 +146,7 @@ class LanguageURLcheck {
     //Before Method
     @BeforeClass
     public void setup() {
-        //
+        //we use inputs for the test cases using json file instead of a user input
         testData = new SHAFT.TestData.JSON("ijd.json");
         formStructure = Arrays.asList(
                 new FormInput("name", "text", true, "lang", true)
