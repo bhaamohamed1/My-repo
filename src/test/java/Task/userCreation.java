@@ -47,7 +47,33 @@ class LanguageURLcheck {
 
     }
 
-    //
+    /*public class InputCollector {
+
+        private static Scanner scanner = new Scanner(System.in);
+
+        public static Map<String, Object> collectInputsForLanguage(List<FormInput> formStructure, String langCode) {
+            Map<String, Object> results = new HashMap<>();
+
+            System.out.println("=== Entering data for language: " + langCode.toUpperCase() + " ===");
+
+            for (FormInput field : formStructure) {
+                if (field.isMultiLang()) {
+                    // Collect value for this specific language
+                    System.out.print("Enter " + field.getName() + " (" + langCode + "): ");
+                    String value = scanner.nextLine();
+                    Map<String, String> langMap = new HashMap<>();
+                    langMap.put(langCode, value);
+                    results.put(field.getName(), langMap);
+                } else {
+                    System.out.print("Enter " + field.getName() + ": ");
+                    String value = scanner.nextLine();
+                    results.put(field.getName(), value);
+                }
+            }
+
+            return results;
+        }
+    }*/
         SHAFT.GUI.WebDriver driver;
         SHAFT.TestData.JSON testData;
 
@@ -58,10 +84,8 @@ class LanguageURLcheck {
 
         @Test
         public void testLanguageInURL() throws InterruptedException {
-            // Simulate user input
 
-
-
+           // Simulate user input
             Map<String, Object> collectedData = collectInputs(formStructure);
 
             // Extract expected language from multilingual input
@@ -115,7 +139,7 @@ class LanguageURLcheck {
     //Before Method
     @BeforeClass
     public void setup() {
-
+        //
         testData = new SHAFT.TestData.JSON("ijd.json");
         formStructure = Arrays.asList(
                 new FormInput("name", "text", true, "lang", true)
