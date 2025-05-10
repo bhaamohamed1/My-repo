@@ -9,7 +9,7 @@ import pages.P02_AddNewUser;
 
 import java.util.*;
 
-class LanguageURLcheck {
+class LanguageURLcheck_And_Create_A_User {
     public class FormInput {
         private String name;
         private String type;
@@ -68,7 +68,7 @@ class LanguageURLcheck {
             Map<String, String> nameMap = (Map<String, String>) collectedData.get("name");
             String expectedLang = nameMap.keySet().iterator().hasNext()
                     ? nameMap.keySet().iterator().next()
-                    : "ar";
+                    : "en";
 
             // Navigate to URL based on language
             String baseUrl = "https://ijd-dashboard-frontend.vercel.app";
