@@ -1,0 +1,29 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                             Test Method: 'Task.LanguageURLcheck.testLanguageInURL'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Post processing some properties to support platforms-specific restrictions. @10-05-2025 16:41:59.0606 PM
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @10-05-2025 16:41:59.0655 PM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.0". @10-05-2025 16:41:59.0800 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-port=50441, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\bhaam\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @10-05-2025 16:41:59.0825 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @10-05-2025 16:41:59.0826 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @10-05-2025 16:41:59.0827 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @10-05-2025 16:42:02.0041 PM
+[ReportManager] Target URL: "https://ijd-dashboard-frontend.vercel.app/ar/dashboard" @10-05-2025 16:42:02.0106 PM
+[ReportManager] Initial URL: "about:blank" @10-05-2025 16:42:02.0121 PM
+[ReportManager] Navigate to url "https://ijd-dashboard-frontend.vercel.app/ar/dashboard". @10-05-2025 16:42:04.0242 PM
+[ReportManager] Type "بريدك الإلكتروني" @10-05-2025 16:42:04.0652 PM
+[ReportManager] Type "كلمة المرور" @10-05-2025 16:42:04.0734 PM
+[ReportManager] Click "تسجيل الدخول" @10-05-2025 16:42:04.0801 PM
+[ReportManager] Target URL: "https://ijd-dashboard-frontend.vercel.app/ar/section" @10-05-2025 16:42:07.0813 PM
+[ReportManager] Initial URL: "https://ijd-dashboard-frontend.vercel.app/ar/dashboard" @10-05-2025 16:42:07.0857 PM
+[ReportManager] Navigate to url "https://ijd-dashboard-frontend.vercel.app/ar/section". @10-05-2025 16:42:08.0383 PM
+[ReportManager] Click "إنشاء جديد" @10-05-2025 16:42:08.0834 PM
+[ReportManager] Type "الاسم" @10-05-2025 16:42:09.0590 PM
+[ReportManager] Click "English" @10-05-2025 16:42:09.0647 PM
+[ReportManager] Type "الاسم" @10-05-2025 16:42:09.0717 PM
+[ReportManager] Click "إنشاء" @10-05-2025 16:42:09.0781 PM
+[ReportManager] Click "By.xpath: /html[1]/body[1]/div[1]/main[1]/div[1]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/button[1]" @10-05-2025 16:42:13.0001 PM
+[ReportManager] Click "حذف" @10-05-2025 16:42:13.0741 PM
