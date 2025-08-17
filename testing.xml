@@ -1,0 +1,19 @@
+<suite name = "TestSuite">
+    <test name = "LoginTests">
+        <Classes>
+            <class name = "test.LoginTests"/>
+        </Classes>
+    </test>
+</suite>
+
+
+<suite name="LoginSuite">
+<test name="LoginTests">
+    <parameter name="username" value="Username1"/>
+    <parameter name="password" value="Pass1"/>
+    <classes>
+        <class name="test.LoginTests" />
+        <class name="test.LoginTests1"/>
+    </classes>
+</test>
+</suite>
