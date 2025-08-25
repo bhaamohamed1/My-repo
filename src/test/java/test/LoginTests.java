@@ -23,7 +23,7 @@ public class LoginTests extends basetest {
     @DataProvider(name="LoginData")
     public Object [][] getLoginData() throws IOException {
 
-        String filePath = System.getProperty("user.dir")+"testdata/testdata.xlsx";
+        String filePath = System.getProperty("user.dir")+"/testdata/testdata.xlsx";
         ExcelUtilis.loadExcel(filePath,"Sheet1");
         int rowCount = ExcelUtilis.getRowCount();
 
@@ -73,7 +73,7 @@ public class LoginTests extends basetest {
     Logout logout = new Logout(driver);
     ClaimPage claimpage = new ClaimPage(driver);
 
-    String adminusername = "admin12";
+    String adminusername = "admin";
     String adminpassword = "admin123";
     String newusername = "NewUserName3";
     String newpassword = "P@ssword1";
