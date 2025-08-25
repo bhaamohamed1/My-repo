@@ -15,12 +15,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.*;
+import utils.ConfigManager;
 import utils.ExcelUtilis;
 import utils.ExtentReportManager;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDateTime;
 
 public class LoginTests extends basetest {
 
@@ -57,6 +59,21 @@ public class LoginTests extends basetest {
 
     test = ExtentReportManager.createTest("My Second Report");
 
+        ConfigManager.loadProperties();
+        String username = ConfigManager.getProperties("username");
+        String password = ConfigManager.getProperties("password");
+
+
+
+
+
+
+
+
+
+
+
+
     Loginpage loginpage = new Loginpage(driver);
     AdminPage adminpage = new AdminPage(driver);
     AddNewUser addnewuser = new AddNewUser(driver);
@@ -77,6 +94,8 @@ Thread.sleep(5000);
 
             loginpage.loginCredentials(adminusername, adminpassword);  // excelUsername & excelPassword instead of those inputs if we have an excel sheet in the testdata folder
             loginpage.clickLoginButton();
+
+
         });
         Thread.sleep(5000);
         
@@ -108,6 +127,8 @@ Thread.sleep(5000);
                 throw new RuntimeException(e);
             }
         });*/
+
+        ConfigManager.setProperties("the output of the test", String.valueOf(LocalDateTime.now()));
     }
 
     public void logAction(ExtentTest test, String actionDescription, Runnable action) {

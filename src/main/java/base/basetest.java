@@ -13,8 +13,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import utils.ConfigManager;
 import utils.ExtentReportManager;
 
+import java.io.FileNotFoundException;
 import java.time.Duration;
 
 
@@ -35,11 +37,14 @@ public class basetest {
     }
 
     @BeforeMethod
-    public void setUp()
-    {
+    public void setUp() throws FileNotFoundException {
+        ConfigManager.loadProperties();
+        String url = ConfigManager.getProperties("url");
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+        driver.get(url);
 
 
 
