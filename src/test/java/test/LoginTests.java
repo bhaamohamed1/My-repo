@@ -3,17 +3,11 @@ package test;
 
 import base.basetest;
 import com.aventstack.extentreports.ExtentTest;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import pages.*;
 import utils.ConfigManager;
 import utils.ExcelUtilis;
@@ -21,7 +15,6 @@ import utils.ExtentReportManager;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 import java.time.LocalDateTime;
 
 public class LoginTests extends basetest {
