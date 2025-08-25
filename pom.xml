@@ -24,13 +24,12 @@
             <artifactId>SHAFT_ENGINE</artifactId>
             <version>9.2.20250409</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-http</artifactId>
             <version>4.27.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -77,11 +76,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>${maven-surefire-plugin.version}</version>
                         <dependencies>
-                            <dependency>
-                                <groupId>org.aspectj</groupId>
-                                <artifactId>aspectjweaver</artifactId>
-                                <version>${aspectjweaver.version}</version>
-                            </dependency>
+
                             <dependency>
                                 <groupId>org.testng</groupId>
                                 <artifactId>testng</artifactId>
@@ -134,12 +129,12 @@
                             <dependency>
                                 <groupId>org.aspectj</groupId>
                                 <artifactId>aspectjweaver</artifactId>
-                                <version>${aspectjweaver.version}</version>
+                                <version>1.9.24</version>
                             </dependency>
                             <dependency>
                                 <groupId>org.junit.jupiter</groupId>
                                 <artifactId>junit-jupiter-engine</artifactId>
-                                <version>${junit-jupiter-engine.version}</version>
+                                <version>6.0.0-RC1</version>
                             </dependency>
                         </dependencies>
                         <configuration>
